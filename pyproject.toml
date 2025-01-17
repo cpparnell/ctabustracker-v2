@@ -7,7 +7,7 @@ name = "ctabustracker-api-v2"
 version = "1.0.0"
 description = "A Python 3 wrapper for the CTA Bus Tracker API."
 readme = "README.md"
-license = "MIT"
+license = {file = "LICENSE"}
 authors = [
   { name = "Connor Parnell (github:@cpparnell)", email = "connorparnell1999@gmail.com" }
 ]

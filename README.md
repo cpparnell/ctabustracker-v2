@@ -25,8 +25,7 @@ pip install ctabustracker-api-v2
 ## Usage
 
 ```python
-YOUR_CTA_API_KEY = "YOUR_API_KEY_HERE"
-cta_client = CTABusTrackerAPI(YOUR_CTA_API_KEY)
+cta_client = CTABusTrackerAPI(process.env.CTA_BUSTRACKER_API_KEY)
 
 # Get system time
 time_response = cta_client.get_time()
